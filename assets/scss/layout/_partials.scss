@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6 {
+  color: $blue-dark;
+  font-family: $custom-font-family;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: normal;
+  text-transform: uppercase;
+  span {white-space: nowrap;}
+}
+
+h2 {
+  font-size: 32px;
+  @media screen and (max-width: 980px) {font-size: 28px;}
+}
+
+#page-container {
+  position: relative;
+}
+
+.et_pb_row {
+  @media screen and (max-width: 980px) {width: 85%;}
+}

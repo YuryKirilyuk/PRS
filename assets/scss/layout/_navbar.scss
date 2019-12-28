@@ -1,0 +1,115 @@
+#main-header {
+  box-shadow: none;
+  border-bottom: 1px solid #a1cac9;
+  .home & {
+    @media screen and (min-width: 1401px) {
+      background: linear-gradient(90deg, transparent 25%, #fff 30%);
+      border: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      &:after {
+        background: #a1cac9;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 1px;
+        left: 25%;
+        right: 0;
+        position: absolute;
+      }
+    }
+  }//.home #main-header
+
+  .container.et_menu_container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -1px;
+    max-width: 1610px;
+    width: 95%;
+    &:after {content: none;}
+    @media screen and (min-width: 1401px) {
+      .home & {padding-left: 316px;}
+    }
+  }
+
+  .logo_container {
+    @media screen and (min-width: 1401px) {
+      .home & {
+        height: auto;
+        left: 0;
+        padding: 55px 30px 0 0;
+        position: absolute;
+        top: 0;
+        width: auto;
+      }
+    }
+    img {
+      @media screen and (max-width: 1440px) {max-height: 70%;}
+    }
+  }
+
+  #et-top-navigation {
+    margin-left: auto;
+    padding-left: 0 !important;
+  }
+
+  #et-info {
+    margin-left: 5%;
+    padding-bottom: 0;
+    @media screen and (max-width: 1485px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+    @media screen and (max-width: 1325px) {margin-left: 1%;}
+    @media screen and (max-width: 1249px) {display: none;}
+
+    #et-info-phone {
+      color: #7db3bd;
+      font-family: $custom-font-family;
+      font-size: 22px;
+      //font-weight: 300;
+      &:before {content: none;}
+      @media screen and (max-width: 1485px) {
+        margin: 0 0 15px;
+      }
+    }//#et-info-phone
+
+    .et-social-icons  {
+      margin-left: 5px;
+      li {
+        margin-left: 15px;
+        a {color: #3a6775;}
+      }
+    }//.et-social-icons
+
+  }//#et-info
+
+  #top-menu li {
+    @media screen and (min-width: 1650px) {padding-right: 40px;}
+    @media screen and (max-width: 1495px) {padding-right: 12px;}
+    a {
+      border-bottom: 7px solid transparent;
+      color: $dark;
+      font-family: $custom-font-family;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    &.current-menu-item a {border-color: #c0e4e2;}
+  }
+}//#main-header
+
+
+.mobile_menu_bar:before {
+  color: $blue-dark;
+}
+.et_mobile_menu {
+  border-color: $blue-dark;
+  font-family: $custom-font-family;
+  font-weight: 300;
+  li a {color: $dark;}
+}

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'unna';
+  src: url('assets/fonts/unna-regular-webfont.eot');
+  src: local('☺'), url('assets/fonts/unna-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/unna-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/unna-regular-webfont.woff') format('woff'),
+    url('assets/fonts/unna-regular-webfont.ttf') format('truetype'),
+    url('assets/fonts/unna-regular-webfont.svg#unnaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unna';
+  src: url('assets/fonts/unna-light-webfont.eot');
+  src: local('☺'), url('assets/fonts/unna-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/unna-light-webfont.woff2') format('woff2'),
+    url('assets/fonts/unna-light-webfont.woff') format('woff'),
+    url('assets/fonts/unna-light-webfont.ttf') format('truetype'),
+    url('assets/fonts/unna-light-webfont.svg#unnalight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unna';
+  src: url('assets/fonts/unna-medium-webfont.eot');
+  src: local('☺'), url('assets/fonts/unna-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/unna-medium-webfont.woff2') format('woff2'),
+    url('assets/fonts/unna-medium-webfont.woff') format('woff'),
+    url('assets/fonts/unna-medium-webfont.ttf') format('truetype'),
+    url('assets/fonts/unna-medium-webfont.svg#unnamedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cambria';
+  src: url('assets/fonts/CAMBRIAI.eot');
+  src: local('☺'), url('assets/fonts/CAMBRIAI.woff') format('woff'),
+    url('assets/fonts/CAMBRIAI.ttf') format('truetype'),
+    url('assets/fonts/CAMBRIAI.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat UL';
+  src: url('assets/fonts/montserrat-ultralight-webfont.eot');
+  src: local('☺'), url('assets/fonts/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/montserrat-ultralight-webfont.woff2') format('woff2'),
+    url('assets/fonts/montserrat-ultralight-webfont.woff') format('woff'),
+    url('assets/fonts/montserrat-ultralight-webfont.ttf') format('truetype'),
+    url('assets/fonts/montserrat-ultralight-webfont.svg#montserratultra_light') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
