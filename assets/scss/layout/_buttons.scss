@@ -15,6 +15,12 @@
     background: darken($blue-dark, 5%);
     box-shadow: 0 22px 24px rgba(1,17,26,.2);
   }
+  @media screen and (max-width: 580px) {
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px !important;
+    padding: 0 15px !important;
+  }
 }//.et_pb_button
 
 

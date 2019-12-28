@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 h2 {
   font-size: 32px;
   @media screen and (max-width: 980px) {font-size: 28px;}
+  @media screen and (max-width: 580px) {font-size: 21px;}
 }
 
 #page-container {
